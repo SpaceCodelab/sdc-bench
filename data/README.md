@@ -2,7 +2,7 @@
 
 Git does not hold the experimental records. They are about 170 MB of binary data, archived with a DOI alongside this repository (see the main README).
 
-The archive `sdc-bench-records-20261031.tar.gz` contains:
+The archive `sdc-bench-records-20261103.tar.gz` contains:
 
 | File | Contents |
 |---|---|

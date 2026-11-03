@@ -25,8 +25,8 @@ This runs a reduced campaign, checks that its records match `tests/quick_referen
 Download and unpack the records archive (see `data/README.md`), then:
 
 ```bash
-cd sdc-bench-records-20261031 && sha256sum -c SHA256SUMS && cd -
-python3 analysis/analyze.py sdc-bench-records-20261031
+cd sdc-bench-records-20261103 && sha256sum -c SHA256SUMS && cd -
+python3 analysis/analyze.py sdc-bench-records-20261103
 ```
 
 This writes three outputs into the records folder:

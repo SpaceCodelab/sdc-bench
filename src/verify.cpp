@@ -113,8 +113,8 @@ template <class T> static void verify_one(int cfg, const InjRec& r, const Site& 
     Cf[(size_t)i * n + j] = acc;
   }
   // ---- harm and flags over the whole output
-  long double maxC = 0, fr = 0; int nbig_clean = 0;
-  for (auto v : D.C) { long double a = std::fabs((long double)v); maxC = std::max(maxC, a); fr += a * a; if (a >= RANGE_BOUND) nbig_clean++; }
+  long double maxC = 0, fr = 0;
+  for (auto v : D.C) { long double a = std::fabs((long double)v); maxC = std::max(maxC, a); fr += a * a; }
   long double frob = std::sqrt(fr);
   bool changed = false, nan = false, inf = false, range = false; long double dmax = 0, dss = 0, cw = 0, M = 0, Mnaive = 0;
   for (size_t t = 0; t < Cf.size(); ++t) {

@@ -1,0 +1,21 @@
+# build output
+bin/
+*.o
+
+# experiment outputs (archive records on Zenodo, not in Git)
+results/
+results-*/
+dist/
+*.bin
+*.tar.gz
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store

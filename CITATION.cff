@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this benchmark or its records, please cite it as below."
+title: "sdc-bench: tolerance-aware evaluation of silent data corruption checking in GEMM"
+abstract: "Fault-injection campaign, independent verifier, timing benchmark and analysis for evaluating silent-data-corruption checkers in matrix multiplication against an application tolerance, in FP64, FP32, FP16 and BF16."
+version: 1.0.0
+date-released: 2026-11-03
+license: MIT
+authors:
+  - family-names: Singh
+    given-names: Ramanjeet
+    affiliation: "Department of Computer Science and Engineering, Chandigarh University, Gharuan, Mohali, India"
+    email: ramanjeetsingh310@gmail.com
+keywords:
+  - silent data corruption
+  - algorithm-based fault tolerance
+  - fault injection
+  - reduced precision

@@ -1,6 +1,6 @@
 # Data
 
-Git does not hold the experimental records. They are about 170 MB of binary data, archived with a DOI alongside this repository (see the main README).
+Git does not hold the experimental records. They are about 170 MB of binary data, archived on Zenodo: https://doi.org/10.5281/zenodo.23911926.
 
 The archive `sdc-bench-records-20261103.tar.gz` contains:
 

@@ -4,6 +4,9 @@
 [![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](LICENSE-DATA)
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-informational.svg)](src)
 [![Python 3](https://img.shields.io/badge/python-3.10%2B-informational.svg)](analysis)
+[![ci](https://github.com/SpaceCodelab/sdc-bench/actions/workflows/ci.yml/badge.svg)](https://github.com/SpaceCodelab/sdc-bench/actions/workflows/ci.yml)
+[![Code DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23911582.svg)](https://doi.org/10.5281/zenodo.23911582)
+[![Data DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23911926.svg)](https://doi.org/10.5281/zenodo.23911926)
 
 **Tolerance-aware evaluation of silent data corruption (SDC) checking in matrix multiplication.**
 
@@ -84,7 +87,7 @@ sdc-bench/
 
 ## Data
 
-The records of the reference run (about 170 MB) are archived separately; [`data/README.md`](data/README.md) explains where. Records produced by a fresh run should match these SHA-256 digests:
+The records of the reference run (about 170 MB) are archived on Zenodo: https://doi.org/10.5281/zenodo.23911926 ([`data/README.md`](data/README.md) lists the contents). Records produced by a fresh run should match these SHA-256 digests:
 
 ```
 6eaedfc4c1d7759139637dc9621e03b26ae58f71b3fd4133f66a9876b9a8b342  injections.bin

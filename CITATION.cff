@@ -5,6 +5,8 @@ abstract: "Fault-injection campaign, independent verifier, timing benchmark and 
 version: 1.0.0
 date-released: 2026-11-03
 license: MIT
+doi: 10.5281/zenodo.23911582
+repository-code: "https://github.com/SpaceCodelab/sdc-bench"
 authors:
   - family-names: Singh
     given-names: Ramanjeet
